@@ -1,0 +1,28 @@
+# Jekyll Defaults
+title: matheplica
+description: matheplica works and inventions
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "https://matheplica.github.io/"
+github: http://github.com/matheplica/matheplica.github.io
+highlighter: blue
+markdown: kramdown
+permalink: /post/:title/
+gems:
+  - jekyll-paginate
+paginate: 10
+paginate_path: "/page:num"
+rss_path: /feed.xml
+navigation:
+- text: DIY
+  url: /diy/
+- text: Comix
+  url: /comix/
+- text: Art
+  url: /art/
+- text: Code
+  url: /code/
+- text: Mbti
+  url: /mbti/
+- text: About
+  url: /about/

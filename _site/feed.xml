@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>matheplica works and inventions</description>		
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Les 8 mouvements en détail</title>
+				<description>&lt;p&gt;Les 8 mouvements de base sont le résultat de la déclinaison de trois binômes d’action (2³ = 8).&lt;/p&gt;
+
+&lt;h1 id=&quot;premier-binôme--la-durée&quot;&gt;Premier binôme : la durée&lt;/h1&gt;
+&lt;p&gt;Un mouvement est soit soutenu ou soudain (il est continu ou est le fruit d’une impulsion). Un mouvement soutenu peut être arrêté quand on veut, tandis qu’un mouvement soudain jaillit et semble échapper au contrôle.&lt;/p&gt;
+
+&lt;h1 id=&quot;deuxième-binôme--le-poids&quot;&gt;Deuxième binôme : le poids&lt;/h1&gt;
+&lt;p&gt;Un mouvement est fort ou léger (il demande un engagement ou une relaxation musculaire).&lt;/p&gt;
+
+&lt;h1 id=&quot;troisième-binôme--lespace&quot;&gt;Troisième binôme : l’espace&lt;/h1&gt;
+&lt;p&gt;Un mouvement est direct ou indirect (il va droit au but ou pas).&lt;/p&gt;
+
+&lt;h2 id=&quot;développement&quot;&gt;Développement&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Presser est soutenu, fort et direct.&lt;/li&gt;
+  &lt;li&gt;Epousseter est soudain, léger et indirect.&lt;/li&gt;
+  &lt;li&gt;Tordre est soutenu, fort et indirect.&lt;/li&gt;
+  &lt;li&gt;Tapoter est soudain, léger et direct.&lt;/li&gt;
+  &lt;li&gt;Flotter est soutenu, léger et indirect.&lt;/li&gt;
+  &lt;li&gt;Repousser est soudain, fort et direct.&lt;/li&gt;
+  &lt;li&gt;Glisser est soutenu, léger et direct.&lt;/li&gt;
+  &lt;li&gt;Fouetter est soudain, fort et indirect.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Il est interéssant de noter que le binôme soutenu/soudain correspond au binôme mbti extraversion/introversion.&lt;/p&gt;
+
+</description>
+				<pubDate>Mon, 15 Aug 2022 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/post/mbti2/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/mbti2/</guid>
+			</item>
+		
+			<item>
+				<title>Mouvements et mbti</title>
+				<description>&lt;p&gt;Suite à mes observations et déductions,
+j’ai découvert le parallélisme entre les &lt;a href=&quot;https://fr.wikipedia.org/wiki/Typologie_jungienne&quot;&gt;8 fonctions psychologiques de Jung&lt;/a&gt; et les 8 efforts de base de Rudolf Laban.
+Si vous voulez travailler une fonction faible, réaliser le mouvement correspondant peut vous aider.
+A contrario un mouvement exagéré indique une fonction utilisée unilatéralement.
+Le mouvement peut s’observer dans l’écriture, la danse, les activités de la vie de tous les jours et même dans les mouvements du globe occulaire.
+&lt;img src=&quot;../assets/img/mbtimvts.png&quot; alt=&quot;Mbti-Mvts&quot; /&gt;&lt;/p&gt;
+</description>
+				<pubDate>Fri, 12 Aug 2022 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/post/mbti1/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/mbti1/</guid>
+			</item>
+		
+			<item>
+				<title>NoisyBox</title>
+				<description>&lt;p&gt;Je suis en train de fabriquer un petit synthé avec une carte Arduino.
+&lt;img src=&quot;../assets/img/minisynth.jpg&quot; alt=&quot;NoisyBox&quot; /&gt;
+C’est beaucoup de boulot mais j’espère pouvoir poster bientôt une vidéo avec les premiers essais.&lt;/p&gt;
+
+</description>
+				<pubDate>Fri, 12 Aug 2022 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/post/diy1/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/diy1/</guid>
+			</item>
+		
+			<item>
+				<title>AxiStrip</title>
+				<description>&lt;p&gt;Voici un &lt;a href=&quot;https://github.com/matheplica/AxiStrip&quot;&gt;programme&lt;/a&gt; qui contrôle mon plotter. Il dessine les cases de mes planches de bd, ce qui m’aide beaucoup.&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://player.vimeo.com/video/736510649&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+				<pubDate>Fri, 12 Aug 2022 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/post/comix1/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/comix1/</guid>
+			</item>
+		
+			<item>
+				<title>Videos Clips</title>
+				<description>&lt;p&gt;Deux clips que j’ai fait de A à Z avec du &lt;a href=&quot;https://github.com/matheplica/VideoMidiRepo&quot;&gt;code&lt;/a&gt; Processing et un Elektron Model:Sample connectés via midi.&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://player.vimeo.com/video/690977705&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://player.vimeo.com/video/681395827&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+				<pubDate>Fri, 12 Aug 2022 00:00:00 +0200</pubDate>
+				<link>http://localhost:4000/post/code1/</link>
+				<guid isPermaLink="true">http://localhost:4000/post/code1/</guid>
+			</item>
+		
+	</channel>
+</rss>

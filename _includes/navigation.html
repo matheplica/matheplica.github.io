@@ -1,0 +1,18 @@
+<header>
+<div id="nav_container">
+<nav>
+  <ul>
+  <h1><a href="/."><img src="../assets/img/mathelogo.png" /></a></h1>
+    {% for link in site.navigation %}
+      <li>
+       {% if page.url == link.url or page.layout == link.layout %}
+       {{ link.text }}
+       {% else %}
+        <a class="menu" href="{{ site.url }}{{ link.url }}">{{ link.text }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+</div>
+</header>
