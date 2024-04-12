@@ -139,6 +139,7 @@ p strong {
 p img[alt~="me"]{
 	float: left;
 	max-width: 128px;
+	margin-bottom: 40px;
 	padding: 10px;
 	
 }
