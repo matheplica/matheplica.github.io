@@ -41,7 +41,7 @@ function setup() {
  canvas.style('z-index', '-1');
  allMenuItems = selectAll('.menu'); 
  url = getURL();
- if(url.endsWith('y/')||url.endsWith('x/')||url.endsWith('c/')||url.endsWith('e/')||url.endsWith('i/')||url.endsWith('t/')) first = false;
+ if(url.endsWith('r/')||url.endsWith('x/')||url.endsWith('t/')||url.endsWith('e/')||url.endsWith('i/')||url.endsWith('t/')) first = false;
  else{ 
    select('footer').position(windowWidth/2-148, 640);
  first = true;}
