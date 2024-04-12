@@ -14,8 +14,8 @@ paginate: 10
 paginate_path: "/page:num"
 rss_path: /feed.xml
 navigation:
-- text: DIY
-  url: /diy/
+- text: Plotter
+  url: /plotter/
 - text: Comix
   url: /comix/
 - text: Art
