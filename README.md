@@ -1,1 +1,1 @@
-personal website made with Jekyll
+personal website
