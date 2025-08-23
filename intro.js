@@ -1,39 +1,51 @@
-var seed = 0, ww = 0, mm = 0, dia = 40, rr = 255, gg = 255, bb = 255;
+let seed = 0, back = 0, firstFrame = 0, lastFrame = 0, ww = 0, max = 0, time = 5;
 function setup() {
-  var cnv = createCanvas(360, 280);
+  var cnv = createCanvas(windowWidth, 200);
+  if(width>600) ww = 30;
+  else ww = 20;
+  max = width/ww;
+  back = color(0, 180, 190, 90);
   cnv.parent('mysketch');
-  //p5script.style("margin-left", "340px");
 }
 
 function draw() {
   randomSeed(seed);
+  
   noStroke();
-  background(255, 8);
-  noFill();
-  strokeWeight(12);
-  for(var i=mm; i<ww; i++){
-    for(var j=0; j<5; j++){
-    if((i+j)%3==0){ 
-      noFill();
-      stroke(random(rr), random(gg), random(bb), int(random(2))*200);
-      circle(30+i*50, 30+j*50, dia);
-    } else { 
-      noStroke();
-      fill(random(rr), random(gg), random(bb), int(random(2))*255);    
-      circle(30+i*50, 30+j*50, dia+10);}
+  //back = (back++)%255;
+  fill(back);
+  rectMode(CORNER);
+  rect(0, 0, width, height);
+  rectMode(CENTER);
+  if(frameCount%time==0) {
+   if(lastFrame<max){
+      lastFrame++;
+      time = 9;
+   }else if(firstFrame<lastFrame){
+    if(firstFrame%2==0) time = 12;
+    else time = 9;  
+    firstFrame++;
+    }else{
+      seed++;
+      time = 5;
+      if(seed%23==0) {
+        back = color(0, random(100, 200), random(120, 220), 90);
+        lastFrame = firstFrame = 0;      
+      }
     }
   }
-  if(frameCount%60==0){  
-    if(ww<7){
-      ww++;
-      seed = int(random(512));
-    }else if(mm<6){
-      mm++;
-    }else {
-      ww = mm = 0;
-      rr = int(random(255));
-      gg = int(random(255));
-      bb = int(random(255));
-    }
+   stroke(255, 120);
+  for(let i=0; i<ww; i++){
+    strokeWeight(int(random(1, 5)));
+    line(i*ww, -100, i*ww*random(1, 2), height);
+  }
+  noStroke();
+  for(let i=firstFrame; i<lastFrame; i++){
+		push();
+		translate(random(width), height/2);
+    rotate(random(PI));
+    fill(random(355), random(228), 36, 180);
+    rect(0, 0, random(20, 80), random(240, 320));
+    pop();
   }
 }
