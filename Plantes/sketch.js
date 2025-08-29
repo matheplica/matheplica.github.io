@@ -15,7 +15,7 @@ function draw(){
   for(let k = 0; k<tables.length; k++){
     for (let r = 0; r < tables[k].getRowCount(); r++){
       for (let c = 0; c < tables[k].getColumnCount(); c++) {
-        text("ok"+tables[k].getString(r, c), r*60, c*90+k*30);
+        text(tables[k].getString(r, c), r*60, c*90+k*30);
       }
     }
   }
