@@ -10,7 +10,7 @@ function setup() {
     }
 }
 function draw(){
-  background(200, 220, 212);
+  background(200, 20, 12);
   textSize(32);
   for(let k = 0; k<tables.length; k++){
     for (let r = 0; r < tables[k].getRowCount(); r++){
