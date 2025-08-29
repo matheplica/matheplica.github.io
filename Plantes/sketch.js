@@ -5,7 +5,7 @@ function preload() {
 }
 function setup() {
 	createCanvas(500, 300);
-  for(let i=0;i<numberFile; i++){
+  for(let i=0;i<2; i++){
        tables[i] = loadTable('rapport'+i+'.csv', 'csv', 'header');
     }
 }
