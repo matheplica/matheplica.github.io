@@ -12,6 +12,8 @@ function setup() {
 function draw(){
   background(20, 20, 212);
   textSize(32);
+  fill(255);
+  stroke(255);
   for(let k = 0; k<tables.length; k++){
     for (let r = 0; r < tables[k].getRowCount(); r++){
       for (let c = 0; c < tables[k].getColumnCount(); c++) {
