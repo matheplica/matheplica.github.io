@@ -1,5 +1,9 @@
 site_name: mathemi-mathema-matheplica
 site_url: https://matheplica.github.io
+docs_dir: docs
+site_dir: site
+repo_url: https://github.com/matheplica/matheplica.github.io
+use_directory_urls: true
 nav:
   - Index: index.md
   - comix:
