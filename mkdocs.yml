@@ -24,7 +24,7 @@ nav:
      - le temps: temps.md
      - au delà: audela.md
 extra_css:
-  - ../stylesheets/style.css
+  - stylesheets/style.css
 theme:
   name: material
   palette:
