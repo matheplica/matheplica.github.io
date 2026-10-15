@@ -1,0 +1,30 @@
+@font-face {
+     font-family: myFont;
+  	src: url(../assets/B612Mono-Regular.ttf);
+}
+  
+* {
+    font-family: myFont;
+}
+.md-content__inner.md-typeset img, h1, canvas{
+    display: block;
+    margin: auto; 
+    text-align: center;
+    margin-top: -130px;
+}
+.md-header__topic.md-ellipsis{
+	color: white;
+}
+.md-nav__link .md-ellipsis{
+	color: black;
+	font-size: 21px;
+}
+.md-nav__title{
+	color: white;
+	height: 0;
+}
+.md-nav__icon{
+	margin-right: 60px;
+	width: 25px;
+	height: 29px;
+}

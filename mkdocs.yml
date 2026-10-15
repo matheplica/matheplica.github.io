@@ -1,0 +1,28 @@
+site_name: mathemi-mathema-matheplica
+site_url: https://matheplica.github.io
+nav:
+  - Index: index.md
+  - comix:
+     - 4x4: 4x4.md
+     - lift: lift.md
+  - fanzines:
+     - infini: infini.md
+     - misunder: misunder.md
+     - alter: alter.md
+     - pratique: pratique.md
+     - different: different.md
+     - marche: marche.md
+     - bonjour: bonjour.md
+     - torpeur: torpeur.md
+     - small: small.md
+     - inutile: inutile.md
+     - short: short.md
+     - le temps: temps.md
+     - au delà: audela.md
+extra_css:
+  - ../stylesheets/style.css
+theme:
+  name: material
+  palette:
+    primary: pink
+    accent: indigo
