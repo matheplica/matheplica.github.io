@@ -2,7 +2,7 @@
   let index = 0;
   let left = 0, right = 0;
   async function setup(){
-    createCanvas(480, 676);
+    createCanvas(396, 558);
     for(let i=0; i<9; i++){
   		img[i] = await loadImage("../assets/1-audela/audela-"+i+".webp");
  		}
@@ -15,16 +15,16 @@
   	if(index<8){
   	noStroke();
   	fill(175, 20);
-  	rect(420, 308, 60, 60, 10);
-  	if(mouseX>420 && mouseX<480 && mouseY>308 && mouseY<368){
+  	rect(336, 308, 60, 60, 10);
+  	if(mouseX>336 && mouseX<396 && mouseY>308 && mouseY<368){
   			right = 1;
 				stroke(80);
   	}else{ 
   		stroke(255);
   	right = 0;
   	}
-  	line(440, 320, 468, 340);
-  	line(440, 360, 468, 340);}
+  	line(356, 320, 384, 340);
+  	line(356, 360, 384, 340);}
   	if(index>0){
   		noStroke();
   		fill(175, 20);

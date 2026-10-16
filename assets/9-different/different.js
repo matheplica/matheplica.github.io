@@ -2,7 +2,7 @@
   let index = 0;
   let left = 0, right = 0;
   async function setup(){
-    createCanvas(427, 680);
+    createCanvas(396, 630);
     for(let i=0; i<15; i++){
   		img[i] = await loadImage("../assets/9-different/different-"+nf(i, 2)+".webp");
  		}
@@ -15,16 +15,16 @@
   	if(index<14){
   	noStroke();
   	fill(175, 20);
-  	rect(365, 340, 60, 60, 10);
-  	if(mouseX>360 && mouseX<420 && mouseY>340 && mouseY<400){
+  	rect(335, 340, 60, 60, 10);
+  	if(mouseX>330 && mouseX<390 && mouseY>340 && mouseY<400){
   			right = 1;
 				stroke(80);
   	}else{ 
   		stroke(255);
   	right = 0;
   	}
-  	line(387, 352, 415, 372);
-  	line(387, 392, 415, 372);}
+  	line(357, 352, 385, 372);
+  	line(357, 392, 385, 372);}
   	if(index>0){
   		noStroke();
   		fill(175, 20);
