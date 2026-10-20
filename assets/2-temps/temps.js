@@ -17,7 +17,7 @@
  		 	noStroke();
   		fill(205, 20);
   		rect(336, 268, 60, 60, 10);
-  		if(mouseX>336 && mouseX<396 && mouseY>308 && mouseY<368){	right = 1;
+  		if(mouseX>336 && mouseX<396 && mouseY>268 && mouseY<328){	right = 1;
 				stroke(80);
   	}else{ 
   		stroke(255);
@@ -30,7 +30,7 @@
   	noStroke();
   	fill(205, 20);
   	rect(0, 268, 60, 60, 10);
-  	if(mouseX>0 && mouseX<60 && mouseY>308 && mouseY<368)						{
+  	if(mouseX>0 && mouseX<60 && mouseY>268 && mouseY<328)						{
   			left = 1;
 				stroke(80);
   	}else{ 

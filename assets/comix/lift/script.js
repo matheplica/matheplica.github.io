@@ -1,5 +1,5 @@
     let right = [], left = [];
-    let iLeft = 0; iRight = 0, high = 0, seed;
+    let iLeft = 0; iRight = 0, high = 0, newHigh, seed;
     async function setup(){
       createCanvas(396, 444);
       for(let i=0; i<10; i++){
@@ -16,23 +16,26 @@
     	image(left[iLeft], 0, 0);
     	image(right[iRight], 216, 0); 
 			textSize(21);
-			high = 9-(int(mouseY/44));
 			noStroke();
+			fill(255);
+			rect(182, 0, 33, 444);
  			for(let i=0; i<10; i++){
+ 			 if(i==high) stroke(0);
+ 			 else noStroke();
  				fill(random(180, 260), random(140, 210), 120);
  				rect(184, 404-i*44, 30, 30, 5);
  				fill(255);
+ 				noStroke();
  				text(i, 193, 428-i*44); 
  			}
  			if(mouseX>184 && mouseX<214 && mouseY>0 && mouseY<424) {
- 				noFill();
- 				strokeWeight(5);
-				stroke(255);
-				rect(184, 404-high*44, 30, 30, 5); 
+ 			high = 9-(int(mouseY/44)); 
 			}
     }
     function mouseClicked(){
+    if(mouseX>184 && mouseX<214 && mouseY>0 && mouseY<424) {
 				iLeft = high;
 				iRight = high;
+  	}
   }
 
