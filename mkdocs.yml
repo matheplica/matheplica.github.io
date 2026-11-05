@@ -5,10 +5,11 @@ site_dir: site
 repo_url: https://github.com/matheplica/matheplica.github.io
 use_directory_urls: true
 nav:
-  - Index: index.md
+  - accueil: index.md
   - comix:
      - 4x4: 4x4.md
      - lift: lift.md
+     - colors: colors.md
   - fanzines:
      - infini: infini.md
      - misunder: misunder.md
@@ -23,6 +24,14 @@ nav:
      - short: short.md
      - le temps: temps.md
      - au delà: audela.md
+  - plotter: plotter.md
+  - gallery:
+     - space: space.md
+     - collages: collages.md
+  - press: press.md
+  - playground: playground.md
+  - materials: materials.md
+  - liens: liens.md
 extra_css:
   - stylesheets/style.css
 theme:
